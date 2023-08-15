@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
   color: white;
+  font-weight: bold;
+  background-color: #002E3C;
 }
 
-.App-link {
-  color: #61dafb;
+.input-field{
+  margin-left: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
 }
+.id-group{
+  margin-top: 1%;
+}
+.list-item{
+  margin-top: 0.5%;
+  
+}
+.button{
+  margin-top: 1%;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 0px 1px  black;
+}
+.field-desc{
+  font-size: 20px;
+  margin-left: 1%;
+}
+.checkboxText{
+    font-size: 20px;
+}
+.left-button{
+  margin-left: 3%;
+}
+.right-button{
+  margin-left: 0.5%;
+}
+.checkbox{
+  width: 30px;
+  height: 20px;
+  border: none;
+  margin-left: 1%;
+ }
+ .divider{
+  margin-top: 0.5%;
+  background-color: white;
+  width: 100000px;
+  height: 5px;
+ }
+ .lists{
+  display: flex;
+  flex-direction: row;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
+ .list-heading{
+    margin-left: 1%;
+ }
+ .role-button{
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  margin-left: 1%;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+ }
